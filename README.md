@@ -1,6 +1,8 @@
 # GPT + Internet search
 
-GPT + AskInternet is a free and locally running search aggregator & answer generate using LLM, Without GPU needed. The user can ask a question and the system will use searxng to make a multi engine search and combine the search result to the ChatGPT (3.5, 4) LLM to generate the answer based on search results.
+GPT + AskInternet is a GPU-free, locally-operating search aggregator and answer generator. It utilizes searxng for multi-engine searches and ChatGPT 4 to produce answers based on combined search results.
+
+It works very similar to the https://www.perplexity.ai/ but without any limitation.
 
 ## How to run
 
