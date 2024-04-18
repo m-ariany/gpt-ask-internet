@@ -367,13 +367,13 @@ func askInternet(ctx context.Context, query string) {
 	fmt.Println(replyMessage)
 
 	h, _ := gptClient.ExportHistory().ToString()
-	fmt.Println("context length:", len(h))
 
 	var s string
 	for _, c := range content {
 		s += c.Content
 	}
-	fmt.Println("web result length:", len(s))
+
+	fmt.Println("Raw web search length:", len(s), "Used context length:", len(h))
 }
 
 func main() {
